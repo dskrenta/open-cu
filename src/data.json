@@ -1,0 +1,79 @@
+{
+    "cuDining": [
+        {
+            "title": "Alfred Packer Grill",
+            "overview": "Alferd Packer Grill in the UMC is open for breakfast, lunch and dinner, offering everything from a huge salad bar and paninis to freshly made tacos and chef-inspired daily specials.",
+            "openingHours": "Mo-Fr 7:00-19:00",
+            "paymentAccepted": "Credit/Debit, Campus Cash, Meal Plan, Munch Money"
+        },
+        {
+            "title": "Center for Community",
+            "overview": "This award-winning dining center offers an exciting fusion of community and cultural dining experiences featuring 10 micro-restaurants that create a culinary experience for customers that both educates and engages the senses.",
+            "openingHours": "Mo-Fr 7:00-20:00; Sa-Su 9:00-20:00",
+            "paymentAccepted": "Credit/Debit, Campus Cash, Meal Plan, Munch Money"
+        },
+        {
+            "title": "CU on the Run Grab-n-Go",
+            "overview": "CU on the Run, located in C4C, features both hot and cold options as well as a made-to-order sandwich station for when you’re on the go.",
+            "openingHours": "Mo-Th 10:30-21:00; Fr 10:30-19:00",
+            "paymentAccepted": "Credit/Debit, Campus Cash, Meal Plan, Munch Money"
+        },
+        {
+            "title": "Farrand Market",
+            "overview": "Located in the heart of campus, Farrand Market is a fast-paced late-night store with a large selection of beverages, hot and ready meal options, quick snacks and student essentials.",
+            "openingHours": "Mo-Fr 9:00-24:00; Sa-Su 11:30-24:00",
+            "paymentAccepted": "Credit/Debit, Campus Cash, Meal Plan, Munch Money"
+        },
+        {
+            "title": "Kittredge Market",
+            "overview": "Located in Kittredge Central, north wing, Kittredge Market offers a full-service espresso and tea bar, on-the-go breakfast and lunch options and a general market with snacks, drinks and essentials.",
+            "openingHours": "Mo-Th 7:00-24:00; Fr 7:00-20:00",
+            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
+        },
+        {
+            "title": "SEEC Cafe",
+            "overview": "The SEEC Café is located at Research Park in the Sustainability, Energy and Environment Community (SEEC) building. This restaurant serves breakfast and lunch daily and is known for its noodle and rice bowls, full-service espresso bar and daily, chef-inspired lunch specials.",
+            "openingHours": "Mo-Fr 8:00-16:00",
+            "paymentAccepted": "Credit/Debit, Campus Cash, Meal Plan, Munch Money"
+        },
+        {
+            "title": "Sewall Dining Center",
+            "overview": "Sewall Dining Center is located in Sewall Hall on the north side of campus. Sewall has four separate meal stations which serve multicultural meal options, traditional “comfort” food, pizza and items right off the grill.",
+            "openingHours": "Mo-Fr 7:00-19:00; Sa-Su 10:00-19:00",
+            "paymentAccepted": "Credit/Debit, Campus Cash, Meal Plan, Munch Money"
+        },
+        {
+            "title": "Sewall Market",
+            "overview": "Sewall Market is a convenience store on the northeast corner of central campus, offering bottled beverages, hot coffee, snacks, sandwiches, salads, ice cream and student essentials.",
+            "openingHours": "Mo-Fr 9:00-24:00",
+            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
+        },
+        {
+            "title": "Starbucks",
+            "overview": "Conveniently located at the UMC, our full-service Starbucks offers hot and iced beverages, blended coffees, pastries, on-the-go meal options, snacks, whole beans and Starbucks merchandise.",
+            "openingHours": "Mo-Fr 7:00-19:00; Sa-Su 11:00-16:00",
+            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
+        },
+        {
+            "title": "The Bakery",
+            "overview": "Located in the Center for Community (C4C) first floor, The Bakery features responsibly sourced specialty coffees, made-from-scratch pastries and on-the-go lunch options.",
+            "openingHours": "Mo-Fr 7:00-15:00",
+            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
+        },
+        {
+            "title": "The Grotto",
+            "overview": "Our newest restaurant in the recently opened Village Center offers burgers, milkshakes, baked and shaked tots and a variety of fun beverages. It's the perfect spot to hang out on game days and awards nights with TVs and large screen media display.",
+            "openingHours": "Sa 16:00-24:00; Su 0:00-2:00",
+            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
+        }
+    ],
+    "dining": [
+        ""
+    ],
+    "rec": [
+        ""
+    ],
+    "cuBuildings": [
+        ""
+    ]
+}

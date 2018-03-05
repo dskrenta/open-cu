@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "i18next-client": "^1.11.4",
+    "moment": "^2.21.0",
+    "opening_hours": "^3.5.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1"
