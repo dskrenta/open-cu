@@ -11,7 +11,8 @@
     "opening_hours": "^3.5.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1"
+    "react-scripts": "1.1.1",
+    "typeface-open-sans": "0.0.54"
   },
   "scripts": {
     "start": "react-scripts start",

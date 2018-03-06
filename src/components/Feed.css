@@ -1,7 +1,18 @@
+@media screen and (min-width: 600px) {
+    .feedContain {
+        margin: 30px auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .feedContain {
+        margin: 15px auto;
+    }
+}
+
 .feedContain {
     display: flex;
     flex-flow: column nowrap;
     max-width: 540px;
     width: 95%;
-    margin: 30px auto;
 }

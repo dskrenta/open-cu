@@ -17,8 +17,10 @@ class App extends Component {
     return (
       <div className="App">
         <AppBar 
-          title="OpenCU"
+          title="Open CU"
           showMenuIconButton={false}
+          style={{position: 'fixed', top: 0}}
+          titleStyle={{fontWeight: 'bold'}}
         />
         <Feed data={data} currentState={currentState} />
       </div>

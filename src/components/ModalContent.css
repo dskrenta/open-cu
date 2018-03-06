@@ -1,0 +1,37 @@
+@media screen and (max-width: 600px) {
+    .modalTitle {
+        font-size: 20px;
+    }
+}
+
+.headerContain {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.titleContain {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.modalTitle {
+    margin: 0 15px 0 0;
+}
+.modalSubtitle {
+    margin: 5px 0;
+}
+.modalOpenIndicator {
+    min-width: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #2ed573;
+}
+.modalClosedIndicator {
+    min-width: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #ff4757;
+}
