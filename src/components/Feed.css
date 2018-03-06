@@ -1,0 +1,7 @@
+.feedContain {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 540px;
+    width: 95%;
+    margin: 30px auto;
+}

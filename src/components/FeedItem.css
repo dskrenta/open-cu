@@ -1,0 +1,37 @@
+.feedItem {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.feedItem:hover {
+    background-color: #eee;
+}
+.textContain {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.mainText {
+    margin: 0 0 3px;
+    font-size: 16px;
+}
+.subText {
+    margin: 0;
+    font-size: 14px;
+}
+.openIndicator {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #2ed573;
+}
+.closedIndicator {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ff4757;
+}

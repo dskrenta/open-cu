@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import opening_hours from 'opening_hours';
+import { AppBar } from 'material-ui';
+
+import Feed from './components/Feed';
 
 import data from './data.json';
 import './App.css';
@@ -13,16 +16,11 @@ class App extends Component {
 
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Open CU</h1>
-        </header>
-        <div className="App-intro">
-          <ul>
-            {data.cuDining.map((item, index) => (
-              <li key={index}>{item.title} &middot; {currentState[index] ? 'OPEN' : 'CLOSED'}</li>
-            ))}
-          </ul>
-        </div>
+        <AppBar 
+          title="OpenCU"
+          showMenuIconButton={false}
+        />
+        <Feed data={data} currentState={currentState} />
       </div>
     );
   }
