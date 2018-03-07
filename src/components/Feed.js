@@ -60,6 +60,15 @@ class Feed extends React.Component {
       };
     });
 
+    const utilitiesStates = data.utilities.map(item => {
+      const oh = new opening_hours(item.openingHours);
+      console.log(item.title);
+      return {
+        state: oh.getState(),
+        next: oh.getNextChange()
+      };
+    });
+
     return (
       <div className="feedContain">
         <Dialog
@@ -89,6 +98,13 @@ class Feed extends React.Component {
           {data.dining.map((item, index) => (
             <div key={index} onClick={() => {this.handleOpen(item, diningStates[index])}}>
               <FeedItem item={item} hours={diningStates[index]} />
+            </div>
+          ))}
+        </FeedSection>
+        <FeedSection label="Utilities">
+          {data.utilities.map((item, index) => (
+            <div key={index} onClick={() => {this.handleOpen(item, utilitiesStates[index])}}>
+              <FeedItem item={item} hours={utilitiesStates[index]} />
             </div>
           ))}
         </FeedSection>

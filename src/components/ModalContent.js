@@ -17,8 +17,14 @@ const ModalContent = ({ item }) => (
         : <div className="modalClosedIndicator"></div>}
     </div>
     <div className="timeTableContain">
+      {item.overview && <div className="row">
+        <p>{item.overview}</p>
+      </div>}
       {item.phone && <div className="row">
         <p>Call: {item.phone}</p>
+      </div>}
+      {item.address && <div className="row">
+        <p>{item.address}</p>
       </div>}
       {item.menu && <div className="row">
         <a href={item.menu}><p>View Menu</p></a>

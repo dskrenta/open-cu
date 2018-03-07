@@ -7,6 +7,7 @@ const FeedItem = ({ item, hours }) => (
   <div className="feedItem">
     <div className="textContain">
       <h4 className="mainText">{item.title}</h4>
+      {item.address && <p className="subText">{item.address}</p>}
       <p className="subText">{formatNext(hours)}</p>
     </div>
     <div className="indicatorContain">

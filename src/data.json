@@ -117,20 +117,23 @@
                     "title": "doordash.com",
                     "url": "https://www.doordash.com/store/the-sink-boulder-69530/?utm_campaign=gpa"
                 }
-            ]
+            ],
+            "address": "1165 13th St, Boulder, CO 80302"
         },
         {
             "title": "Illegal Pete's",
             "overview": "Offbeat 3-meal staple supplying burritos among other quick Mexican grub plus a full bar.",
             "openingHours": "open; Tu,We,Th,Mo 0:00-11:00 off; Fr,Sa,Su 2:30-11:00 off",
             "menu": "http://places.singleplatform.com/illegal-petes/menu?ref=google",
-            "phone": "(303) 444-3055"
+            "phone": "(303) 444-3055",
+            "address": "1447 Pearl St, Boulder, CO 80302"
         },
         {
             "title": "Rincon Del Sol",
             "overview": "Bright, airy cantina with elevated Mexican favorites, vegetarian options & patio seating.",
             "openingHours": "Mo-Su 11:00-22:00",
             "phone": "(303) 442-0541",
+            "address": "2350 Arapahoe Ave, Boulder, CO 80302",
             "order": [
                 {
                     "title": "grubhub.com",
@@ -145,6 +148,13 @@
                     "url": "https://www.doordash.com/store/rincon-del-sol-boulder-69474/?utm_campaign=gpa"
                 }
             ]
+        },
+        {
+            "title": "Wendy's",
+            "overview": "Fast-food burger chain known for its shakes, as well as sides such as chili & baked potatoes.",
+            "phone": "(303) 499-5848",
+            "address": "2420 Baseline Rd, Boulder, CO 80305",
+            "openingHours": "Mo-Su 10:00-22:00"
         }
     ],
     "rec": [
@@ -154,6 +164,19 @@
         }
     ],
     "utilities": [
-        ""
+        {
+            "title": "7-Eleven",
+            "overview": "Convenience chain offering grab-&-go bites & beverages, plus assorted newsstand items.",
+            "phone": "(303) 442-0184",
+            "address": "1091 13th St, Boulder, CO 80302",
+            "openingHours": "open" 
+        },
+        {
+            "title": "Corner Store",
+            "overview": "Convenience-store chain with lots of food & drink options. Most sell fuel & some have car washes.",
+            "phone": "(303) 449-8798",
+            "address": "1704 Arapahoe Ave, Boulder, CO 80302",
+            "openingHours": "Mo-Su 6:00-23:00"
+        }
     ]
 }
