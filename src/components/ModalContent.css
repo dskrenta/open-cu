@@ -35,3 +35,15 @@
     border-radius: 20px;
     background-color: #ff4757;
 }
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.row p {
+    margin: 5px 0 0;
+}
+.row span {
+    margin: 0 10px 0 0;
+}

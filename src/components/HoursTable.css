@@ -1,0 +1,18 @@
+.hoursTable {
+    display: flex; 
+    flex-direction: column;
+}
+.hoursRow {
+    display: flex; 
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+}
+.hoursRow p {
+    margin: 5px 0 0;
+}
+.hoursLabel {
+    margin: 15px 0 5px;
+}

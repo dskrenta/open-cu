@@ -73,7 +73,7 @@ class Feed extends React.Component {
         </Dialog>
         <FeedSection label="On Campus Dining">
           {data.cuDining.map((item, index) => (
-            <div key={index} onClick={() => {this.handleOpen(item, cuDiningStates[index].state)}}>
+            <div key={index} onClick={() => {this.handleOpen(item, cuDiningStates[index])}}>
               <FeedItem item={item} hours={cuDiningStates[index]} />
             </div>
           ))}
