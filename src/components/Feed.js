@@ -44,8 +44,6 @@ class Feed extends React.Component {
       };
     });
 
-    console.log(cuDiningStates);
-
     const recStates = data.rec.map(item => {
       const oh = new opening_hours(item.openingHours);
       return {
