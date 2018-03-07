@@ -65,15 +65,48 @@
             "overview": "Our newest restaurant in the recently opened Village Center offers burgers, milkshakes, baked and shaked tots and a variety of fun beverages. It's the perfect spot to hang out on game days and awards nights with TVs and large screen media display.",
             "openingHours": "Sa 16:00-24:00; Su 0:00-2:00",
             "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
+        },
+        {
+            "title": "Toast on the Run",
+            "overview": "Located in the Village Market, this brand new grab-n-go features breakfast items for students in a hurry! Breakfast burritos, bagels and cream cheese, pastries, coffee drinks and more will all be on the menu.",
+            "openingHours": "Mo-Fr 7:00-13:00",
+            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
+        },
+        {
+            "title": "UMC Market",
+            "overview": "UMC Market offers a quick option for hot and cold on-the-go sandwiches, snacks and beverages.",
+            "openingHours": "Mo-Fr 8:00-14:00",
+            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
+        },
+        {
+            "title": "Village Dining Center",
+            "overview": "Our newest dining center featuring an all-day breakfast station, made-to-order smoothies, freshly prepared curry and a station dedicated to locally sourced food!",
+            "openingHours": "Sa-Su 9:00-20:00; Mo-Fr 8:00-19:00",
+            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
+        },
+        {
+            "title": "Village Market",
+            "overview": "Williams Village and Bear Creek students can enjoy the brand new Village Market located in the Village Center. It offers a great selection of produce, snacks, beverages, essentials and even CU apparel! You can also get your favorite espresso and handcrafted coffee drinks.",
+            "openingHours": "Sa-Su 11:00-24:00; Mo-Fr 7:00-24:00",
+            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
+        },
+        {
+            "title": "WeatherTech Cafe",
+            "overview": "The laid-back, late-night restaurant in the Center for Community serving made-to-order pizzas, sandwiches, salads and more!",
+            "openingHours": "Sa 0:00-2:00; Sa 16:00-24:00; Su 0:00-2:00; Mo-Fr 11:00-24:00",
+            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
         }
     ],
     "dining": [
         ""
     ],
     "rec": [
-        ""
+        {
+            "title": "Student Recreation Center",
+            "openingHours": "Mo-Fr 6:00-23:30; Sa-Su 9:00-23:00"
+        }
     ],
-    "cuBuildings": [
+    "utilities": [
         ""
     ]
 }

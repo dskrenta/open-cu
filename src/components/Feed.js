@@ -1,6 +1,8 @@
 import React from 'react';
 import { Dialog } from 'material-ui';
+import opening_hours from 'opening_hours';
 
+import data from '../data.json';
 import FeedItem from './FeedItem';
 import FeedSection from './FeedSection';
 import ModalContent from './ModalContent';
@@ -19,7 +21,7 @@ class Feed extends React.Component {
 
   handleOpen = (item, open) => {
     item.open = open;
-    this.setState({ activeItem: item, open: true })
+    this.setState({ activeItem: item, open: true });
   }
 
   handleClose = () => {
@@ -28,11 +30,20 @@ class Feed extends React.Component {
 
   renderDialogContent = () => {
     if (!this.state.activeItem) return null;
-    return (<ModalContent item={this.state.activeItem} />)
+    return (<ModalContent item={this.state.activeItem} />);
   }
   
   render() {
-    const { data, currentState } = this.props;
+    const cuDiningStates = data.cuDining.map(item => {
+      const oh = new opening_hours(item.openingHours);
+      return oh.getState();
+    });
+
+    const recStates = data.rec.map(item => {
+      const oh = new opening_hours(item.openingHours);
+      return oh.getState();
+    });
+
     return (
       <div className="feedContain">
         <Dialog
@@ -46,8 +57,15 @@ class Feed extends React.Component {
         </Dialog>
         <FeedSection label="CU Dining">
           {data.cuDining.map((item, index) => (
-            <div key={index} onClick={() => {this.handleOpen(item, currentState[index])}}>
-              <FeedItem item={item} currentState={currentState[index]} />
+            <div key={index} onClick={() => {this.handleOpen(item, cuDiningStates[index])}}>
+              <FeedItem item={item} currentState={cuDiningStates[index]} />
+            </div>
+          ))}
+        </FeedSection>
+        <FeedSection label="CU Recreational">
+          {data.rec.map((item, index) => (
+            <div key={index} onClick={() => {this.handleOpen(item, recStates[index])}}>
+              <FeedItem item={item} currentState={recStates[index]} />
             </div>
           ))}
         </FeedSection>
