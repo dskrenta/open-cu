@@ -3,6 +3,7 @@ import { Dialog } from 'material-ui';
 import opening_hours from 'opening_hours';
 
 import data from '../data.json';
+import SimpleOpeningHours from '../utils/simple-opening-hours'; 
 import FeedItem from './FeedItem';
 import FeedSection from './FeedSection';
 import ModalContent from './ModalContent';
@@ -38,9 +39,12 @@ class Feed extends React.Component {
       const oh = new opening_hours(item.openingHours);
       return {
         state: oh.getState(),
-        next: oh.getNextChange()
+        next: oh.getNextChange(),
+        table: new SimpleOpeningHours(item.openingHours).getTable()
       };
     });
+
+    console.log(cuDiningStates);
 
     const recStates = data.rec.map(item => {
       const oh = new opening_hours(item.openingHours);
