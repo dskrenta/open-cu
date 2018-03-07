@@ -1,12 +1,21 @@
 import React from 'react';
+import moment from 'moment';
 
 import './FeedItem.css';
+
+function formatNext(hours) {
+  return (
+    <span className={`${hours.state ? 'open' : 'closed'}Text`}>
+      {hours.state ? 'Open' : 'Closed'} until {moment(hours.next).format('dddd h:mm a')}
+    </span>
+  );
+}
 
 const FeedItem = ({ item, hours }) => (
   <div className="feedItem">
     <div className="textContain">
       <h4 className="mainText">{item.title}</h4>
-      <p className="subText">{hours.state ? `Open until ${hours.next.toString()}` : `Closed until ${hours.next.toString()}`}</p>
+      <p className="subText">{formatNext(hours)}</p>
     </div>
     <div className="indicatorContain">
       {hours.state
