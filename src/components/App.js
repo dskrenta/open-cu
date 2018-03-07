@@ -1,8 +1,10 @@
 import React from 'react';
-import { AppBar } from 'material-ui';
+import { AppBar, Dialog } from 'material-ui';
 import weather from 'yahoo-weather';
+import WeatherIcon from 'react-icons-weather';
 
 import Feed from './Feed';
+import WeatherModal from './WeatherModal';
 
 import './App.css';
 
@@ -10,7 +12,8 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      weather: undefined
+      weather: undefined,
+      open: false,
     };
   }
 
@@ -20,6 +23,25 @@ class App extends React.Component {
       .catch(error => console.error(error));
   }
 
+  handleOpen = (item, open) => {
+    this.setState({ open: true });
+  }
+
+  handleClose = () => {
+    this.setState({ open: false })
+  }
+
+  renderWeatherIcon = () => {
+    if (!this.state.weather) return null;
+    const current = this.state.weather.item.condition;
+    return (
+      <div className="appbarWeatherContain" onClick={this.handleOpen}>
+        <WeatherIcon name="yahoo" iconId={current.code} className="appbarWeatherIcon" />
+        {current.temp}&deg;
+      </div>
+    )
+  }
+
   render() {
     return (
       <div className="App">
@@ -27,8 +49,19 @@ class App extends React.Component {
           title="Open CU"
           showMenuIconButton={false}
           style={{position: 'fixed', top: 0}}
-          titleStyle={{fontWeight: 'bold'}}
+          titleStyle={{fontWeight: 'bold', textAlign: 'left'}}
+          iconElementRight={this.renderWeatherIcon()}
         />
+        <Dialog
+          modal={false}
+          open={this.state.open}
+          onRequestClose={this.handleClose}
+          autoScrollBodyContent={true}
+          contentStyle={{width: '95%', maxWidth: 700}}
+        >
+          {this.state.weather && <WeatherModal weather={this.state.weather} />}
+        </Dialog>
+        {console.log(this.state.weather)}
         <Feed />
       </div>
     );

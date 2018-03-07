@@ -9,7 +9,7 @@ const HoursTable = ({ hours }) => (
     {hours && <h4 className="hoursLabel">Business Hours:</h4>}
     {(hours && hours['ph']) && delete hours['ph']}
     {hours && Object.keys(hours).map((hour, index) => (
-      <div className="hoursRow">
+      <div key={index} className="hoursRow">
         <p>{days[index]}</p>
         <p>{hours[hour].length > 0 ? hours[hour] : 'Closed'}</p>
       </div>
