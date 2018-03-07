@@ -61,7 +61,6 @@ class App extends React.Component {
         >
           {this.state.weather && <WeatherModal weather={this.state.weather} />}
         </Dialog>
-        {console.log(this.state.weather)}
         <Feed />
       </div>
     );

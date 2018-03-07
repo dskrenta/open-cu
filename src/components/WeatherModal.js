@@ -35,7 +35,6 @@ const WeatherModal = ({ weather }) => (
         </tbody>
       </table>
     </div>
-    {console.log(weather)}
   </div>
 ) 
 
