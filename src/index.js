@@ -13,7 +13,7 @@ const muiTheme = getMuiTheme({
     primary1Color: '#45aaf2'
   },
   fontFamily: 'Open Sans, sans-serif'
-})
+});
 
 ReactDOM.render(
   <MuiThemeProvider muiTheme={muiTheme}>

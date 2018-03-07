@@ -36,12 +36,26 @@ class Feed extends React.Component {
   render() {
     const cuDiningStates = data.cuDining.map(item => {
       const oh = new opening_hours(item.openingHours);
-      return oh.getState();
+      return {
+        state: oh.getState(),
+        next: oh.getNextChange()
+      };
     });
 
     const recStates = data.rec.map(item => {
       const oh = new opening_hours(item.openingHours);
-      return oh.getState();
+      return {
+        state: oh.getState(),
+        next: oh.getNextChange()
+      };
+    });
+
+    const diningStates = data.dining.map(item => {
+      const oh = new opening_hours(item.openingHours);
+      return {
+        state: oh.getState(),
+        next: oh.getNextChange()
+      };
     });
 
     return (
@@ -55,17 +69,24 @@ class Feed extends React.Component {
         >
           {this.renderDialogContent()}
         </Dialog>
-        <FeedSection label="CU Dining">
+        <FeedSection label="On Campus Dining">
           {data.cuDining.map((item, index) => (
-            <div key={index} onClick={() => {this.handleOpen(item, cuDiningStates[index])}}>
-              <FeedItem item={item} currentState={cuDiningStates[index]} />
+            <div key={index} onClick={() => {this.handleOpen(item, cuDiningStates[index].state)}}>
+              <FeedItem item={item} hours={cuDiningStates[index]} />
             </div>
           ))}
         </FeedSection>
         <FeedSection label="CU Recreational">
           {data.rec.map((item, index) => (
             <div key={index} onClick={() => {this.handleOpen(item, recStates[index])}}>
-              <FeedItem item={item} currentState={recStates[index]} />
+              <FeedItem item={item} hours={recStates[index]} />
+            </div>
+          ))}
+        </FeedSection>
+        <FeedSection label="Off Campus Dining">
+          {data.dining.map((item, index) => (
+            <div key={index} onClick={() => {this.handleOpen(item, diningStates[index])}}>
+              <FeedItem item={item} hours={diningStates[index]} />
             </div>
           ))}
         </FeedSection>

@@ -98,7 +98,54 @@
         }
     ],
     "dining": [
-        ""
+        {
+            "title": "The Sink",
+            "overview": "Funky, family-owned landmark for Sinkburgers & Ugly Crust Pizza plus local & regional microbrews.",
+            "openingHours": "open; Mo-Su 2:00-11:00 off",
+            "menu": "https://thesink.com/best-restaurants-in-boulder-co/",
+            "phone": "(303) 444-7465",
+            "order": [
+                {
+                    "title": "thesink.com",
+                    "url": "https://thesink.com/delivery/"
+                },
+                {
+                    "title": "seamless.com",
+                    "url": "https://www.seamless.com/menu/the-sink-1165-13th-st-boulder/78983?utm_source=google&utm_medium=organic&utm_campaign=place-action-link"
+                },
+                {
+                    "title": "doordash.com",
+                    "url": "https://www.doordash.com/store/the-sink-boulder-69530/?utm_campaign=gpa"
+                }
+            ]
+        },
+        {
+            "title": "Illegal Pete's",
+            "overview": "Offbeat 3-meal staple supplying burritos among other quick Mexican grub plus a full bar.",
+            "openingHours": "open; Tu,We,Th,Mo 0:00-11:00 off; Fr,Sa,Su 2:30-11:00 off",
+            "menu": "http://places.singleplatform.com/illegal-petes/menu?ref=google",
+            "phone": "(303) 444-3055"
+        },
+        {
+            "title": "Rincon Del Sol",
+            "overview": "Bright, airy cantina with elevated Mexican favorites, vegetarian options & patio seating.",
+            "openingHours": "Mo-Su 11:00-22:00",
+            "phone": "(303) 442-0541",
+            "order": [
+                {
+                    "title": "grubhub.com",
+                    "url": "https://www.grubhub.com/restaurant/rincon-del-sol-2350-arapahoe-ave-boulder/682701?utm_source=google&utm_medium=organic&utm_campaign=place-action-link"
+                },
+                {
+                    "title": "seamless.com",
+                    "url": "https://www.seamless.com/menu/rincon-del-sol-2350-arapahoe-ave-boulder/682701?utm_source=google&utm_medium=organic&utm_campaign=place-action-link"
+                },
+                {
+                    "title": "doordash.com",
+                    "url": "https://www.doordash.com/store/rincon-del-sol-boulder-69474/?utm_campaign=gpa"
+                }
+            ]
+        }
     ],
     "rec": [
         {
