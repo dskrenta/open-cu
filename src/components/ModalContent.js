@@ -57,6 +57,7 @@ const ModalContent = ({ item }) => (
           {item.paymentAccepted}
         </p>
       </div>}
+      {console.log(item.hoursTable)}
       {item.hoursTable && <HoursTable hours={item.hoursTable} />}
     </div>
   </div>

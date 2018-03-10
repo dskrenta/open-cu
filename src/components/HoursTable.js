@@ -2,15 +2,13 @@ import React from 'react';
 
 import './HoursTable.css';
 
-const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-
 const HoursTable = ({ hours }) => (
   <div className="hoursTable">
     {hours && <h4 className="hoursLabel">Business Hours:</h4>}
-    {(hours && hours['ph']) && delete hours['ph']}
+    {console.log(hours)}
     {hours && Object.keys(hours).map((hour, index) => (
       <div key={index} className="hoursRow">
-        <p>{days[index]}</p>
+        <p>{hour}</p>
         <p>{hours[hour].length > 0 ? hours[hour] : 'Closed'}</p>
       </div>
     ))}
