@@ -4,97 +4,241 @@
             "title": "Alfred Packer Grill",
             "overview": "Alferd Packer Grill in the UMC is open for breakfast, lunch and dinner, offering everything from a huge salad bar and paninis to freshly made tacos and chef-inspired daily specials.",
             "openingHours": "Mo-Fr 7:00-19:00",
-            "paymentAccepted": "Credit/Debit, Campus Cash, Meal Plan, Munch Money"
+            "paymentAccepted": "Credit/Debit, Campus Cash, Meal Plan, Munch Money",
+            "hoursTable": {
+                "Sunday": "Closed",
+                "Monday": "7am - 7pm",
+                "Tuesday": "7am - 7pm",
+                "Wednesday": "7am - 7pm",
+                "Thursday": "7am - 7pm",
+                "Friday": "7am - 7pm",
+                "Saturday": "Closed"
+            }
         },
         {
             "title": "Center for Community",
             "overview": "This award-winning dining center offers an exciting fusion of community and cultural dining experiences featuring 10 micro-restaurants that create a culinary experience for customers that both educates and engages the senses.",
             "openingHours": "Mo-Fr 7:00-20:00; Sa-Su 9:00-20:00",
-            "paymentAccepted": "Credit/Debit, Campus Cash, Meal Plan, Munch Money"
+            "paymentAccepted": "Credit/Debit, Campus Cash, Meal Plan, Munch Money",
+            "hoursTable": {
+                "Sunday": "9am - 8pm",
+                "Monday": "7am - 8pm",
+                "Tuesday": "7am - 8pm",
+                "Wednesday": "7am - 8pm",
+                "Thursday": "7am - 8pm",
+                "Friday": "7am - 8pm",
+                "Saturday": "9am - 8pm"
+            }
         },
         {
             "title": "CU on the Run Grab-n-Go",
             "overview": "CU on the Run, located in C4C, features both hot and cold options as well as a made-to-order sandwich station for when you’re on the go.",
             "openingHours": "Mo-Th 10:30-21:00; Fr 10:30-19:00",
-            "paymentAccepted": "Credit/Debit, Campus Cash, Meal Plan, Munch Money"
+            "paymentAccepted": "Credit/Debit, Campus Cash, Meal Plan, Munch Money",
+            "hoursTable": {
+                "Sunday": "Closed",
+                "Monday": "10:30am - 9pm",
+                "Tuesday": "10:30am - 9pm",
+                "Wednesday": "10:30am - 9pm",
+                "Thursday": "10:30am - 9pm",
+                "Friday": "10:30am - 7pm",
+                "Saturday": "Closed"
+            }
         },
         {
             "title": "Farrand Market",
             "overview": "Located in the heart of campus, Farrand Market is a fast-paced late-night store with a large selection of beverages, hot and ready meal options, quick snacks and student essentials.",
             "openingHours": "Mo-Fr 9:00-24:00; Sa-Su 11:30-24:00",
-            "paymentAccepted": "Credit/Debit, Campus Cash, Meal Plan, Munch Money"
+            "paymentAccepted": "Credit/Debit, Campus Cash, Meal Plan, Munch Money",
+            "hoursTable": {
+                "Sunday": "11:30am - Midnight",
+                "Monday": "9am - Midnight",
+                "Tuesday": "9am - Midnight",
+                "Wednesday": "9am - Midnight",
+                "Thursday": "9am - Midnight",
+                "Friday": "9am - Midnight",
+                "Saturday": "11:30am - Midnight"
+            }
         },
         {
             "title": "Kittredge Market",
             "overview": "Located in Kittredge Central, north wing, Kittredge Market offers a full-service espresso and tea bar, on-the-go breakfast and lunch options and a general market with snacks, drinks and essentials.",
             "openingHours": "Mo-Th 7:00-24:00; Fr 7:00-20:00",
-            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
+            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money",
+            "hoursTable": {
+                "Sunday": "7am - 8pm",
+                "Monday": "7am - Midnight",
+                "Tuesday": "7am - Midnight",
+                "Wednesday": "7am - Midnight",
+                "Thursday": "7am - Midnight",
+                "Friday": "7am - Midnight",
+                "Saturday": "7am - 8pm"
+            }
         },
         {
             "title": "SEEC Cafe",
             "overview": "The SEEC Café is located at Research Park in the Sustainability, Energy and Environment Community (SEEC) building. This restaurant serves breakfast and lunch daily and is known for its noodle and rice bowls, full-service espresso bar and daily, chef-inspired lunch specials.",
             "openingHours": "Mo-Fr 8:00-16:00",
-            "paymentAccepted": "Credit/Debit, Campus Cash, Meal Plan, Munch Money"
+            "paymentAccepted": "Credit/Debit, Campus Cash, Meal Plan, Munch Money",
+            "hoursTable": {
+                "Sunday": "Closed",
+                "Monday": "8am - 4pm",
+                "Tuesday": "8am - 4pm",
+                "Wednesday": "8am - 4pm",
+                "Thursday": "8am - 4pm",
+                "Friday": "8am - 4pm",
+                "Saturday": "Closed"
+            }
         },
         {
             "title": "Sewall Dining Center",
             "overview": "Sewall Dining Center is located in Sewall Hall on the north side of campus. Sewall has four separate meal stations which serve multicultural meal options, traditional “comfort” food, pizza and items right off the grill.",
             "openingHours": "Mo-Fr 7:00-19:00; Sa-Su 10:00-19:00",
-            "paymentAccepted": "Credit/Debit, Campus Cash, Meal Plan, Munch Money"
+            "paymentAccepted": "Credit/Debit, Campus Cash, Meal Plan, Munch Money",
+            "hoursTable": {
+                "Sunday": "10am - 7pm",
+                "Monday": "7am - 7pm",
+                "Tuesday": "7am - 7pm",
+                "Wednesday": "7am - 7pm",
+                "Thursday": "7am - 7pm",
+                "Friday": "7am - 7pm",
+                "Saturday": "10am - 7pm"
+            }
         },
         {
             "title": "Sewall Market",
             "overview": "Sewall Market is a convenience store on the northeast corner of central campus, offering bottled beverages, hot coffee, snacks, sandwiches, salads, ice cream and student essentials.",
             "openingHours": "Mo-Fr 9:00-24:00",
-            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
+            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money",
+            "hoursTable": {
+                "Sunday": "Closed",
+                "Monday": "9am - Midnight",
+                "Tuesday": "9am - Midnight",
+                "Wednesday": "9am - Midnight",
+                "Thursday": "9am - Midnight",
+                "Friday": "9am - Midnight",
+                "Saturday": "Closed"
+            }
         },
         {
             "title": "Starbucks",
             "overview": "Conveniently located at the UMC, our full-service Starbucks offers hot and iced beverages, blended coffees, pastries, on-the-go meal options, snacks, whole beans and Starbucks merchandise.",
             "openingHours": "Mo-Fr 7:00-19:00; Sa-Su 11:00-16:00",
-            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
+            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money",
+            "hoursTable": {
+                "Sunday": "11am - 4pm",
+                "Monday": "7am - 7pm",
+                "Tuesday": "7am - 7pm",
+                "Wednesday": "7am - 7pm",
+                "Thursday": "7am - 7pm",
+                "Friday": "7am - 7pm",
+                "Saturday": "11am - 4pm"
+            }
         },
         {
             "title": "The Bakery",
             "overview": "Located in the Center for Community (C4C) first floor, The Bakery features responsibly sourced specialty coffees, made-from-scratch pastries and on-the-go lunch options.",
             "openingHours": "Mo-Fr 7:00-15:00",
-            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
+            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money",
+            "hoursTable": {
+                "Sunday": "Closed",
+                "Monday": "7am - 3pm",
+                "Tuesday": "7am - 3pm",
+                "Wednesday": "7am - 3pm",
+                "Thursday": "7am - 3pm",
+                "Friday": "7am - 3pm",
+                "Saturday": "Closed"
+            }
         },
         {
             "title": "The Grotto",
             "overview": "Our newest restaurant in the recently opened Village Center offers burgers, milkshakes, baked and shaked tots and a variety of fun beverages. It's the perfect spot to hang out on game days and awards nights with TVs and large screen media display.",
-            "openingHours": "Sa 16:00-24:00; Su 0:00-2:00",
-            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
+            "openingHours": "Mo-Su 16:00-24:00, 0:00-2:00",
+            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money",
+            "hoursTable": {
+                "Sunday": "4pm - 2am",
+                "Monday": "4pm - 2am",
+                "Tuesday": "4pm - 2am",
+                "Wednesday": "4pm - 2am",
+                "Thursday": "4pm - 2am",
+                "Friday": "4pm - 2am",
+                "Saturday": "4pm - 2am"
+            }
         },
         {
             "title": "Toast on the Run",
             "overview": "Located in the Village Market, this brand new grab-n-go features breakfast items for students in a hurry! Breakfast burritos, bagels and cream cheese, pastries, coffee drinks and more will all be on the menu.",
             "openingHours": "Mo-Fr 7:00-13:00",
-            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
+            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money",
+            "hoursTable": {
+                "Sunday": "Closed",
+                "Monday": "7am - 1pm",
+                "Tuesday": "7am - 1pm",
+                "Wednesday": "7am - 1pm",
+                "Thursday": "7am - 1pm",
+                "Friday": "7am - 1pm",
+                "Saturday": "Closed"
+            }
         },
         {
             "title": "UMC Market",
             "overview": "UMC Market offers a quick option for hot and cold on-the-go sandwiches, snacks and beverages.",
             "openingHours": "Mo-Fr 8:00-14:00",
-            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
+            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money",
+            "hoursTable": {
+                "Sunday": "Closed",
+                "Monday": "8am - 2pm",
+                "Tuesday": "8am - 2pm",
+                "Wednesday": "8am - 2pm",
+                "Thursday": "8am - 2pm",
+                "Friday": "8am - 2pm",
+                "Saturday": "Closed"
+            }
         },
         {
             "title": "Village Dining Center",
             "overview": "Our newest dining center featuring an all-day breakfast station, made-to-order smoothies, freshly prepared curry and a station dedicated to locally sourced food!",
             "openingHours": "Sa-Su 9:00-20:00; Mo-Fr 8:00-19:00",
-            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
+            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money",
+            "hoursTable": {
+                "Sunday": "9pm - 8pm",
+                "Monday": "8am - 7pm",
+                "Tuesday": "8am - 7pm",
+                "Wednesday": "8am - 7pm",
+                "Thursday": "8am - 7pm",
+                "Friday": "8am - 7pm",
+                "Saturday": "9am - 8pm"
+            }
         },
         {
             "title": "Village Market",
             "overview": "Williams Village and Bear Creek students can enjoy the brand new Village Market located in the Village Center. It offers a great selection of produce, snacks, beverages, essentials and even CU apparel! You can also get your favorite espresso and handcrafted coffee drinks.",
             "openingHours": "Sa-Su 11:00-24:00; Mo-Fr 7:00-24:00",
-            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
+            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money",
+            "hoursTable": {
+                "Sunday": "11am - Midnight",
+                "Monday": "7am - Midnight",
+                "Tuesday": "7am - Midnight",
+                "Wednesday": "7am - Midnight",
+                "Thursday": "7am - Midnight",
+                "Friday": "7am - Midnight",
+                "Saturday": "11am - Midnight"
+            }
         },
         {
             "title": "WeatherTech Cafe",
             "overview": "The laid-back, late-night restaurant in the Center for Community serving made-to-order pizzas, sandwiches, salads and more!",
-            "openingHours": "Sa 0:00-2:00; Sa 16:00-24:00; Su 0:00-2:00; Mo-Fr 11:00-24:00",
-            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money"
+            "openingHours": "Sa-Su 0:00-2:00, 16:00-24:00; Mo-Fr 0:00-2:00, 11:00-24:00",
+            "paymentAccepted": "Credit/Debit, Campus Cash, Munch Money",
+            "hoursTable": {
+                "Sunday": "4pm - 2am",
+                "Monday": "11am - 2am",
+                "Tuesday": "11am - 2am",
+                "Wednesday": "11am - 2am",
+                "Thursday": "11am - 2am",
+                "Friday": "11am - 2am",
+                "Saturday": "4pm - 2am"
+            }
         }
     ],
     "dining": [
@@ -118,7 +262,16 @@
                     "url": "https://www.doordash.com/store/the-sink-boulder-69530/?utm_campaign=gpa"
                 }
             ],
-            "address": "1165 13th St, Boulder, CO 80302"
+            "address": "1165 13th St, Boulder, CO 80302",
+            "hoursTable": {
+                "Sunday": "11am - 2am",
+                "Monday": "11am - 2am",
+                "Tuesday": "11am - 2am",
+                "Wednesday": "11am - 2am",
+                "Thursday": "11am - 2am",
+                "Friday": "11am - 2am",
+                "Saturday": "11am - 2am"
+            }
         },
         {
             "title": "Illegal Pete's",
@@ -126,7 +279,16 @@
             "openingHours": "open; Tu,We,Th,Mo 0:00-11:00 off; Fr,Sa,Su 2:30-11:00 off",
             "menu": "http://places.singleplatform.com/illegal-petes/menu?ref=google",
             "phone": "(303) 444-3055",
-            "address": "1447 Pearl St, Boulder, CO 80302"
+            "address": "1447 Pearl St, Boulder, CO 80302",
+            "hoursTable": {
+                "Sunday": "11am - Midnight",
+                "Monday": "11am - Midnight",
+                "Tuesday": "11am - Midnight",
+                "Wednesday": "11am - Midnight",
+                "Thursday": "11am - 2:30am",
+                "Friday": "11am - 2:30am",
+                "Saturday": "11am - 2:30am"
+            }
         },
         {
             "title": "Rincon Del Sol",
@@ -147,20 +309,47 @@
                     "title": "doordash.com",
                     "url": "https://www.doordash.com/store/rincon-del-sol-boulder-69474/?utm_campaign=gpa"
                 }
-            ]
+            ],
+            "hoursTable": {
+                "Sunday": "11am - 10pm",
+                "Monday": "11am - 10pm",
+                "Tuesday": "11am - 10pm",
+                "Wednesday": "11am - 10pm",
+                "Thursday": "11am - 10pm",
+                "Friday": "11am - 10pm",
+                "Saturday": "11am - 10pm"
+            }
         },
         {
             "title": "Wendy's",
             "overview": "Fast-food burger chain known for its shakes, as well as sides such as chili & baked potatoes.",
             "phone": "(303) 499-5848",
             "address": "2420 Baseline Rd, Boulder, CO 80305",
-            "openingHours": "Mo-Su 10:00-22:00"
+            "openingHours": "Mo-Su 10:00-22:00",
+            "hoursTable": {
+                "Sunday": "10am - 10pm",
+                "Monday": "10am - 10pm",
+                "Tuesday": "10am - 10pm",
+                "Wednesday": "10am - 10pm",
+                "Thursday": "10am - 10pm",
+                "Friday": "10am - 10pm",
+                "Saturday": "10am - 10pm"
+            }
         }
     ],
     "rec": [
         {
             "title": "Student Recreation Center",
-            "openingHours": "Mo-Fr 6:00-23:30; Sa-Su 9:00-23:00"
+            "openingHours": "Mo-Fr 6:00-23:30; Sa-Su 9:00-23:00",
+            "hoursTable": {
+                "Sunday": "9am - 11pm",
+                "Monday": "6am - 11:30pm",
+                "Tuesday": "6am - 11:30pm",
+                "Wednesday": "6am - 11:30pm",
+                "Thursday": "6am - 11:30pm",
+                "Friday": "6am - 11:30pm",
+                "Saturday": "9am - 11pm"
+            }
         }
     ],
     "utilities": [
@@ -169,14 +358,23 @@
             "overview": "Convenience chain offering grab-&-go bites & beverages, plus assorted newsstand items.",
             "phone": "(303) 442-0184",
             "address": "1091 13th St, Boulder, CO 80302",
-            "openingHours": "open" 
+            "openingHours": "open"
         },
         {
             "title": "Corner Store",
             "overview": "Convenience-store chain with lots of food & drink options. Most sell fuel & some have car washes.",
             "phone": "(303) 449-8798",
             "address": "1704 Arapahoe Ave, Boulder, CO 80302",
-            "openingHours": "Mo-Su 6:00-23:00"
+            "openingHours": "Mo-Su 6:00-23:00",
+            "hoursTable": {
+                "Sunday": "6am - 6pm",
+                "Monday": "6am - 6pm",
+                "Tuesday": "6am - 6pm",
+                "Wednesday": "6am - 6pm",
+                "Thursday": "6am - 6pm",
+                "Friday": "6am - 6pm",
+                "Saturday": "6am - 6pm"
+            }
         }
     ]
 }

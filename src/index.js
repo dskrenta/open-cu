@@ -10,7 +10,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 const muiTheme = getMuiTheme({
   palette: {
-    primary1Color: '#45aaf2'
+    primary1Color: '#0ae'
   },
   fontFamily: 'Open Sans, sans-serif'
 });

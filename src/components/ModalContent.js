@@ -34,7 +34,7 @@ const ModalContent = ({ item }) => (
           <a key={index} href={orderItem.url}><span>{orderItem.title}</span></a>
         ))}</p>
       </div>}
-      <HoursTable hours={item.open.table} />
+      {item.hoursTable && <HoursTable hours={item.hoursTable} />}
     </div>
   </div>
 );
