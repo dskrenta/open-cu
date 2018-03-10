@@ -23,19 +23,22 @@ const ModalContent = ({ item }) => (
       </div>}
       {item.phone && <div className="row">
         <p>
-          <MaterialIcon.MdPhone size={18} /> 
+          <MaterialIcon.MdPhone size={18} />
+          &nbsp; 
           {item.phone}
         </p>
       </div>}
       {item.address && <div className="row">
         <p>
-          <MaterialIcon.MdPlace size={18} /> 
+          <MaterialIcon.MdPlace size={18} />
+          &nbsp; 
           {item.address}
         </p>
       </div>}
       {item.menu && <div className="row">
         <p>
           <MaterialIcon.MdRestaurantMenu size={18} /> 
+          &nbsp;
           <a href={item.menu}>View Menu</a>
         </p>
       </div>}
@@ -50,7 +53,7 @@ const ModalContent = ({ item }) => (
       </div>}
       {item.paymentAccepted && <div className="row">
         <p>
-          <MaterialIcon.MdMonetizationOn size={18} style={{marginBottom: 2}} /> 
+          <MaterialIcon.MdLocalAtm size={22} style={{marginBottom: 2}} /> 
           {item.paymentAccepted}
         </p>
       </div>}
