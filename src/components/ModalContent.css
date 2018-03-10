@@ -35,6 +35,9 @@
     border-radius: 20px;
     background-color: #ff4757;
 }
+.overview p {
+    margin: 5px 0;
+}
 .row {
     display: flex;
     flex-flow: row wrap;
@@ -42,8 +45,12 @@
     justify-content: flex-start;
 }
 .row p {
-    margin: 5px 0 0;
+    margin: 5px 0;
+    font-size: 14px;
 }
 .row span {
     margin: 0 10px 0 0;
+}
+.row svg {
+    margin-right: 5px;
 }
