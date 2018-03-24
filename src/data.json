@@ -271,7 +271,8 @@
                 "Thursday": "11am - 2am",
                 "Friday": "11am - 2am",
                 "Saturday": "11am - 2am"
-            }
+            },
+            "imageUrl": "https://pbs.twimg.com/profile_images/756195565482840064/gfjcRmE2.jpg"
         },
         {
             "title": "Illegal Pete's",
@@ -288,7 +289,8 @@
                 "Thursday": "11am - 2:30am",
                 "Friday": "11am - 2:30am",
                 "Saturday": "11am - 2:30am"
-            }
+            },
+            "imageUrl": "http://eatdenver.com/wordpress/wp-content/uploads/2016/09/IllegalPetes_Flag_Logo.jpg"
         },
         {
             "title": "Rincon Del Sol",
@@ -318,7 +320,8 @@
                 "Thursday": "11am - 10pm",
                 "Friday": "11am - 10pm",
                 "Saturday": "11am - 10pm"
-            }
+            },
+            "imageUrl": "https://d2fpz7jqe8v7wt.cloudfront.net/restaurant-logos/5318/large-f0b57bfd33d030d4f0570f7cc48abb7a.jpg?1520451672" 
         },
         {
             "title": "Wendy's",
@@ -334,7 +337,8 @@
                 "Thursday": "10am - 10pm",
                 "Friday": "10am - 10pm",
                 "Saturday": "10am - 10pm"
-            }
+            },
+            "imageUrl": "https://pbs.twimg.com/profile_images/905469122674393089/m49BKeBS.jpg"
         }
     ],
     "rec": [
@@ -358,7 +362,8 @@
             "overview": "Convenience chain offering grab-&-go bites & beverages, plus assorted newsstand items.",
             "phone": "(303) 442-0184",
             "address": "1091 13th St, Boulder, CO 80302",
-            "openingHours": "open"
+            "openingHours": "open",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/7-eleven_logo.svg/1200px-7-eleven_logo.svg.png"
         },
         {
             "title": "Corner Store",
