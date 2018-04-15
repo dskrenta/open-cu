@@ -63,7 +63,7 @@ class Home extends React.Component {
           onRequestClose={() => {this.modalHandler(false, null)}}
         >
           <View style={styles.modalContain}>
-            <ScrollView>
+            <ScrollView style={{flex: 1}}>
               {this.state.modalContent}
             </ScrollView>
             <TouchableHighlight
