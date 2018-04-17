@@ -6,6 +6,7 @@ import getIcon from '../utils/getIcon';
 
 const Weather = ({ weather }) => (
   <View>
+    {console.log(weather)}
     <View style={styles.header}>
       <Text style={styles.location}>Boulder, CO</Text>
       <View style={styles.row}>
@@ -30,12 +31,64 @@ const Weather = ({ weather }) => (
       {'astronomy' in weather &&
         <View style={styles.extra}>
           <View style={styles.extraItem}>
-            <Icon name='weather-sunset-up' size={30} />
+            <View style={styles.extraIcon}>
+              <Icon name='weather-sunset-up' size={30} />
+            </View>
             <Text style={styles.extraText}>{weather.astronomy.sunrise}</Text>
           </View>
           <View style={styles.extraItem}>
-            <Icon name='weather-sunset-down' size={30} />
+            <View style={styles.extraIcon}>
+              <Icon name='weather-sunset-down' size={30} />
+            </View>
             <Text style={styles.extraText}>{weather.astronomy.sunset}</Text>
+          </View>
+        </View>
+      }
+      {'wind' in weather &&
+        <View style={styles.extra}>
+          <View style={styles.extraItem}>
+            <View style={styles.extraIcon}>
+              <Icon name='weather-windy' size={30} />
+            </View>
+            <Text style={styles.extraText}>{weather.wind.speed} mph</Text>
+          </View>
+          <View style={styles.extraItem}>
+            <View style={styles.extraIcon}>
+              <Icon name='snowflake' size={30} />
+            </View>
+            <Text style={styles.extraText}>{weather.wind.chill}&deg;</Text>
+          </View>
+        </View>
+      }
+      {'atmosphere' in weather &&
+        <View>
+          <View style={styles.extra}>
+            <View style={styles.extraItem}>
+              <View style={styles.extraIcon}>
+                <Icon name='swap-vertical' size={30} />
+              </View>
+              <Text style={styles.extraText}>{weather.atmosphere.rising}</Text>
+            </View>
+            <View style={styles.extraItem}>
+              <View style={styles.extraIcon}>
+                <Icon name='gauge' size={30} />
+              </View>
+              <Text style={styles.extraText}>{weather.atmosphere.pressure} in</Text>
+            </View>
+          </View>
+          <View style={styles.extra}>
+            <View style={styles.extraItem}>
+              <View style={styles.extraIcon}>
+                <Icon name='eye-outline' size={30} />
+              </View>
+              <Text style={styles.extraText}>{weather.atmosphere.visibility} mi</Text>
+            </View>
+            <View style={styles.extraItem}>
+              <View style={styles.extraIcon}>
+                <Icon name='water-percent' size={30} />
+              </View>
+              <Text style={styles.extraText}>{weather.atmosphere.humidity}%</Text>
+            </View>
           </View>
         </View>
       }
@@ -65,7 +118,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around',
     flex: 1,
     paddingLeft: 30,
-    paddingVertical: 5
+    paddingVertical: 3
   },
   temp: {
     fontSize: 65,
@@ -75,8 +128,7 @@ const styles = StyleSheet.create({
   },
   forecast: {
     display: 'flex',
-    paddingBottom: 20,
-    paddingTop: 20,
+    paddingVertical: 30,
     borderBottomWidth: 1,
     borderTopWidth: 1,
     borderColor: '#ddd'
@@ -93,7 +145,7 @@ const styles = StyleSheet.create({
   extraContain: {
     paddingHorizontal: 30,
     paddingBottom: 80,
-    paddingTop: 20,
+    paddingTop: 30,
   },
   extra: {
     flexDirection: 'row',
@@ -101,14 +153,20 @@ const styles = StyleSheet.create({
     paddingVertical: 5
   },  
   extraItem: {
-    flex: 1,
+    width: '50%',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'row'
   },
+  extraIcon: {
+    width: '35%',
+    alignItems: 'flex-end'
+  },
   extraText: {
+    width: '65%',
     marginLeft: 10,
+    marginBottom: 2,
     fontSize: 20
   }
 })
