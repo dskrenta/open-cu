@@ -14,15 +14,31 @@ const Weather = ({ weather }) => (
       </View>
       <Text style={styles.location}>{weather.item.condition.text}</Text>
     </View>
-    <View style={styles.body}>
+    <View style={styles.forecast}>
       {weather.item.forecast.map((day, index) => (
         <View key={index} style={styles.forecastRow}>
-          <Text>{day.day}</Text>
-          <Text>{}</Text>
-          <Text>{day.high}</Text>
-          <Text>{day.low}</Text>
+          <Text style={[styles.forecastText, index === 0 && {fontWeight: 'bold'}]}>{index === 0 ? 'Today' : day.day}</Text>
+          <View style={styles.forecastItem}>
+            <Icon name={getIcon(day.code)} size={30} />
+          </View>
+          <Text style={[styles.forecastText, index === 0 && {fontWeight: 'bold'}]}>{day.high}</Text>
+          <Text style={[styles.forecastText, index === 0 && {fontWeight: 'bold'}]}>{day.low}</Text>
         </View>
       ))}
+    </View>
+    <View style={styles.extraContain}>
+      {'astronomy' in weather &&
+        <View style={styles.extra}>
+          <View style={styles.extraItem}>
+            <Icon name='weather-sunset-up' size={30} />
+            <Text style={styles.extraText}>{weather.astronomy.sunrise}</Text>
+          </View>
+          <View style={styles.extraItem}>
+            <Icon name='weather-sunset-down' size={30} />
+            <Text style={styles.extraText}>{weather.astronomy.sunset}</Text>
+          </View>
+        </View>
+      }
     </View>
   </View>
 )
@@ -47,7 +63,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-around',
-    flex: 1
+    flex: 1,
+    paddingLeft: 30,
+    paddingVertical: 5
   },
   temp: {
     fontSize: 65,
@@ -55,8 +73,43 @@ const styles = StyleSheet.create({
     margin: 10,
     marginRight: 0
   },
-  body: {
+  forecast: {
     display: 'flex',
+    paddingBottom: 20,
+    paddingTop: 20,
+    borderBottomWidth: 1,
+    borderTopWidth: 1,
+    borderColor: '#ddd'
+  },
+  forecastItem: {
+    flex: 3,
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  forecastText: {
+    flex: 1,
+    fontSize: 18
+  },
+  extraContain: {
+    paddingHorizontal: 30,
+    paddingBottom: 80,
+    paddingTop: 20,
+  },
+  extra: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: 5
+  },  
+  extraItem: {
+    flex: 1,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'row'
+  },
+  extraText: {
+    marginLeft: 10,
+    fontSize: 20
   }
 })
 
