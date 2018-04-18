@@ -65,15 +65,15 @@ const Weather = ({ weather }) => (
           <View style={styles.extra}>
             <View style={styles.extraItem}>
               <View style={styles.extraIcon}>
-                <Icon name='swap-vertical' size={30} />
+                <Icon name='gauge' size={30} />
               </View>
-              <Text style={styles.extraText}>{weather.atmosphere.rising}</Text>
+              <Text style={styles.extraText}>{Math.round((weather.atmosphere.pressure/33.7685)*10)/10} inHg</Text>
             </View>
             <View style={styles.extraItem}>
               <View style={styles.extraIcon}>
-                <Icon name='gauge' size={30} />
+                <Icon name='swap-vertical' size={30} />
               </View>
-              <Text style={styles.extraText}>{weather.atmosphere.pressure} in</Text>
+              <Text style={styles.extraText}>{(weather.atmosphere.rising === 2) ? 'Falling' : (weather.atmosphere.rising === 1) ? 'Rising' : 'Steady'}</Text>
             </View>
           </View>
           <View style={styles.extra}>
@@ -150,7 +150,7 @@ const styles = StyleSheet.create({
   extra: {
     flexDirection: 'row',
     alignItems: 'center',
-    paddingVertical: 5
+    paddingVertical: 10
   },  
   extraItem: {
     width: '50%',
