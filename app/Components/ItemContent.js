@@ -15,7 +15,10 @@ class ItemContent extends React.Component {
     const { item, hours } = this.props;
     return (
       <View>
-        <Modal visible={this.state.webOpen}>
+        <Modal 
+          visible={this.state.webOpen}
+          onRequestClose={() => {this.setState({webOpen: false})}}
+        >
           <TouchableHighlight onPress={() => {this.setState({webOpen: false})}}>
             <View style={styles.webClose}>
               <Text style={styles.closeText}>Close</Text>
@@ -57,20 +60,20 @@ class ItemContent extends React.Component {
           {'menu' in item && 
             <View style={styles.detailContain}>
               <Icon name="restaurant-menu" style={styles.detailIcon} />
-              <Text style={styles.detailText}>
+              <View style={styles.detailView}>
                 <TouchableHighlight 
                   onPress={() => {this.setState({webOpen: true, webLink: item.menu})}}
                   underlayColor='transparent'
                 >
                   <Text style={styles.menuText}>View Menu</Text>
                 </TouchableHighlight>
-              </Text>
+              </View>
             </View>
           }
           {'order' in item && 
             <View style={styles.detailContain}>
               <Icon name="local-shipping" style={styles.detailIcon} />
-              <Text style={styles.detailText}>
+              <View style={styles.detailView}>
                 {item.order.map((orderItem, index) => (
                   <TouchableHighlight 
                     key={index} 
@@ -80,7 +83,7 @@ class ItemContent extends React.Component {
                     <Text style={styles.orderItem}>{orderItem.title}&nbsp;&nbsp;</Text>
                   </TouchableHighlight>
                 ))}
-              </Text>
+              </View>
             </View>
           }
           {'hoursTable' in item && <HoursTable hours={item.hoursTable} />}
@@ -149,15 +152,22 @@ const styles = StyleSheet.create({
     fontSize: 16,
     flex: 1,
     flexWrap: 'wrap',
+    flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center'
+  },
+  detailView: {
+    flex: 1,
+    flexWrap: 'wrap',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'flex-start'
   },
   orderItem: {
     fontSize: 16,
     color: '#0645AD'
   },
   menuText: {
-    marginTop: 5,
     fontSize: 16,
     color: '#0645AD'
   },
