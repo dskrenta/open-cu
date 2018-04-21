@@ -4,12 +4,12 @@
         "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/drawable-xxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/color_abc_primary_text_disable_only_material_light.xml.flat",
-        "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/color/abc_primary_text_disable_only_material_light.xml"
-    },
-    {
         "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
         "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/drawable-ldrtl-hdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/color_abc_primary_text_disable_only_material_light.xml.flat",
+        "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
         "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -36,12 +36,12 @@
         "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/drawable-xhdpi/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -60,12 +60,12 @@
         "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/drawable-xhdpi/abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -80,12 +80,12 @@
         "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/drawable-hdpi/abc_btn_rating_star_on_mtrl_alpha.png"
     },
     {
-        "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/anim_abc_grow_fade_in_from_bottom.xml.flat",
-        "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/anim/abc_grow_fade_in_from_bottom.xml"
-    },
-    {
         "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/drawable-xxhdpi/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/anim_abc_grow_fade_in_from_bottom.xml.flat",
+        "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_textfield_search_default_mtrl_alpha.9.png.flat",

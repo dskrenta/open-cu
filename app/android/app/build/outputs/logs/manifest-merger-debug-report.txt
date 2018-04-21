@@ -4,6 +4,7 @@ ADDED from /home/bryce/repos/open-cu/app/android/app/src/main/AndroidManifest.xm
 INJECTED from /home/bryce/repos/open-cu/app/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /home/bryce/repos/open-cu/app/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /home/bryce/repos/open-cu/app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-linear-gradient] /home/bryce/repos/open-cu/app/node_modules/react-native-linear-gradient/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-vector-icons] /home/bryce/repos/open-cu/app/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.54.4] /home/bryce/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/fd2671a7b05f528acf15a8a96e90fb02/AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:appcompat-v7:23.0.1] /home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/AndroidManifest.xml:17:1-24:12
@@ -94,6 +95,8 @@ uses-sdk
 INJECTED from /home/bryce/repos/open-cu/app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/bryce/repos/open-cu/app/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/bryce/repos/open-cu/app/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-linear-gradient] /home/bryce/repos/open-cu/app/node_modules/react-native-linear-gradient/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /home/bryce/repos/open-cu/app/node_modules/react-native-linear-gradient/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /home/bryce/repos/open-cu/app/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /home/bryce/repos/open-cu/app/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.54.4] /home/bryce/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/fd2671a7b05f528acf15a8a96e90fb02/AndroidManifest.xml:7:5-9:41

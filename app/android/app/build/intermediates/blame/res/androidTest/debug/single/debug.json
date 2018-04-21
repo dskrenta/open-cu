@@ -168,12 +168,12 @@
         "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/androidTest/debug/anim_catalyst_slide_down.xml.flat",
-        "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/fd2671a7b05f528acf15a8a96e90fb02/res/anim/catalyst_slide_down.xml"
-    },
-    {
         "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/androidTest/debug/drawable-hdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/androidTest/debug/anim_catalyst_slide_down.xml.flat",
+        "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/fd2671a7b05f528acf15a8a96e90fb02/res/anim/catalyst_slide_down.xml"
     },
     {
         "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -184,12 +184,12 @@
         "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/drawable-xxhdpi/abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/androidTest/debug/layout_notification_media_action.xml.flat",
         "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/androidTest/debug/drawable-mdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -208,12 +208,12 @@
         "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/fd2671a7b05f528acf15a8a96e90fb02/res/layout/dev_loading_view.xml"
     },
     {
-        "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/drawable-xhdpi/abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
         "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/androidTest/debug/drawable-ldrtl-xxxhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
         "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/drawable-ldrtl-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/drawable-xhdpi/abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/androidTest/debug/drawable_abc_list_selector_background_transition_holo_dark.xml.flat",

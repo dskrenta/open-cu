@@ -45,28 +45,6 @@
             ]
         },
         {
-            "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-de_values-de.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/values-de/values-de.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "280,385,493,616,714,826,912,1017,1132,1214,1325,1428,1527,1638,1740,1847,1969,2071",
-                        "endColumns": "104,107,122,97,111,85,104,114,81,110,102,98,110,101,106,121,101,100",
-                        "endOffsets": "380,488,611,709,821,907,1012,1127,1209,1320,1423,1522,1633,1735,1842,1964,2066,2167"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,160,268,391,489,601,687,792,907,989,1100,1203,1302,1413,1515,1622,1744,1846",
-                        "endColumns": "104,107,122,97,111,85,104,114,81,110,102,98,110,101,106,121,101,100",
-                        "endOffsets": "155,263,386,484,596,682,787,902,984,1095,1198,1297,1408,1510,1617,1739,1841,1942"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-uz-rUZ_values-uz-rUZ.arsc.flat",
             "map": [
                 {
@@ -84,6 +62,28 @@
                         "startOffsets": "55,160,268,391,495,612,698,809,925,1009,1118,1225,1324,1432,1537,1642,1741",
                         "endColumns": "104,107,122,103,116,85,110,115,83,108,106,98,107,104,104,98,100",
                         "endOffsets": "155,263,386,490,607,693,804,920,1004,1113,1220,1319,1427,1532,1637,1736,1837"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-de_values-de.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/values-de/values-de.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "280,385,493,616,714,826,912,1017,1132,1214,1325,1428,1527,1638,1740,1847,1969,2071",
+                        "endColumns": "104,107,122,97,111,85,104,114,81,110,102,98,110,101,106,121,101,100",
+                        "endOffsets": "380,488,611,709,821,907,1012,1127,1209,1320,1423,1522,1633,1735,1842,1964,2066,2167"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,160,268,391,489,601,687,792,907,989,1100,1203,1302,1413,1515,1622,1744,1846",
+                        "endColumns": "104,107,122,97,111,85,104,114,81,110,102,98,110,101,106,121,101,100",
+                        "endOffsets": "155,263,386,484,596,682,787,902,984,1095,1198,1297,1408,1510,1617,1739,1841,1942"
                     }
                 }
             ]
@@ -245,28 +245,6 @@
             ]
         },
         {
-            "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-fa_values-fa.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/values-fa/values-fa.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "280,390,500,626,729,840,928,1031,1146,1227,1339,1442,1540,1650,1753,1862,1987,2088",
-                        "endColumns": "109,109,125,102,110,87,102,114,80,111,102,97,109,102,108,124,100,100",
-                        "endOffsets": "385,495,621,724,835,923,1026,1141,1222,1334,1437,1535,1645,1748,1857,1982,2083,2184"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,165,275,401,504,615,703,806,921,1002,1114,1217,1315,1425,1528,1637,1762,1863",
-                        "endColumns": "109,109,125,102,110,87,102,114,80,111,102,97,109,102,108,124,100,100",
-                        "endOffsets": "160,270,396,499,610,698,801,916,997,1109,1212,1310,1420,1523,1632,1757,1858,1959"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-ka-rGE_values-ka-rGE.arsc.flat",
             "map": [
                 {
@@ -284,6 +262,28 @@
                         "startOffsets": "55,164,272,395,499,610,698,803,916,999,1112,1219,1317,1430,1534,1638,1760,1858",
                         "endColumns": "108,107,122,103,110,87,104,112,82,112,106,97,112,103,103,121,97,100",
                         "endOffsets": "159,267,390,494,605,693,798,911,994,1107,1214,1312,1425,1529,1633,1755,1853,1954"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-fa_values-fa.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/values-fa/values-fa.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "280,390,500,626,729,840,928,1031,1146,1227,1339,1442,1540,1650,1753,1862,1987,2088",
+                        "endColumns": "109,109,125,102,110,87,102,114,80,111,102,97,109,102,108,124,100,100",
+                        "endOffsets": "385,495,621,724,835,923,1026,1141,1222,1334,1437,1535,1645,1748,1857,1982,2083,2184"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,165,275,401,504,615,703,806,921,1002,1114,1217,1315,1425,1528,1637,1762,1863",
+                        "endColumns": "109,109,125,102,110,87,102,114,80,111,102,97,109,102,108,124,100,100",
+                        "endOffsets": "160,270,396,499,610,698,801,916,997,1109,1212,1310,1420,1523,1632,1757,1858,1959"
                     }
                 }
             ]
@@ -465,28 +465,6 @@
             ]
         },
         {
-            "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-nb_values-nb.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/values-nb/values-nb.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "280,388,497,622,717,831,917,1017,1130,1210,1313,1412,1508,1612,1710,1811,1927,2024",
-                        "endColumns": "107,108,124,94,113,85,99,112,79,102,98,95,103,97,100,115,96,100",
-                        "endOffsets": "383,492,617,712,826,912,1012,1125,1205,1308,1407,1503,1607,1705,1806,1922,2019,2120"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,163,272,397,492,606,692,792,905,985,1088,1187,1283,1387,1485,1586,1702,1799",
-                        "endColumns": "107,108,124,94,113,85,99,112,79,102,98,95,103,97,100,115,96,100",
-                        "endOffsets": "158,267,392,487,601,687,787,900,980,1083,1182,1278,1382,1480,1581,1697,1794,1895"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-sv_values-sv.arsc.flat",
             "map": [
                 {
@@ -504,6 +482,28 @@
                         "startOffsets": "55,161,269,392,495,606,691,793,906,986,1092,1192,1288,1393,1495,1597,1714,1816",
                         "endColumns": "105,107,122,102,110,84,101,112,79,105,99,95,104,101,101,116,101,100",
                         "endOffsets": "156,264,387,490,601,686,788,901,981,1087,1187,1283,1388,1490,1592,1709,1811,1912"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-nb_values-nb.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/values-nb/values-nb.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "280,388,497,622,717,831,917,1017,1130,1210,1313,1412,1508,1612,1710,1811,1927,2024",
+                        "endColumns": "107,108,124,94,113,85,99,112,79,102,98,95,103,97,100,115,96,100",
+                        "endOffsets": "383,492,617,712,826,912,1012,1125,1205,1308,1407,1503,1607,1705,1806,1922,2019,2120"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,163,272,397,492,606,692,792,905,985,1088,1187,1283,1387,1485,1586,1702,1799",
+                        "endColumns": "107,108,124,94,113,85,99,112,79,102,98,95,103,97,100,115,96,100",
+                        "endOffsets": "158,267,392,487,601,687,787,900,980,1083,1182,1278,1382,1480,1581,1697,1794,1895"
                     }
                 }
             ]
@@ -597,28 +597,6 @@
             ]
         },
         {
-            "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-pt-rPT_values-pt-rPT.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/values-pt-rPT/values-pt-rPT.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "284,404,512,635,741,848,937,1038,1162,1249,1356,1468,1570,1678,1785,1892,2014,2113",
-                        "endColumns": "119,107,122,105,106,88,100,123,86,106,111,101,107,106,106,121,98,100",
-                        "endOffsets": "399,507,630,736,843,932,1033,1157,1244,1351,1463,1565,1673,1780,1887,2009,2108,2209"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,175,283,406,512,619,708,809,933,1020,1127,1239,1341,1449,1556,1663,1785,1884",
-                        "endColumns": "119,107,122,105,106,88,100,123,86,106,111,101,107,106,106,121,98,100",
-                        "endOffsets": "170,278,401,507,614,703,804,928,1015,1122,1234,1336,1444,1551,1658,1780,1879,1980"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-sl_values-sl.arsc.flat",
             "map": [
                 {
@@ -636,6 +614,28 @@
                         "startOffsets": "55,162,270,393,500,608,695,798,917,1001,1109,1218,1318,1431,1538,1642,1759,1856",
                         "endColumns": "106,107,122,106,107,86,102,118,83,107,108,99,112,106,103,116,96,100",
                         "endOffsets": "157,265,388,495,603,690,793,912,996,1104,1213,1313,1426,1533,1637,1754,1851,1952"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-pt-rPT_values-pt-rPT.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/values-pt-rPT/values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "284,404,512,635,741,848,937,1038,1162,1249,1356,1468,1570,1678,1785,1892,2014,2113",
+                        "endColumns": "119,107,122,105,106,88,100,123,86,106,111,101,107,106,106,121,98,100",
+                        "endOffsets": "399,507,630,736,843,932,1033,1157,1244,1351,1463,1565,1673,1780,1887,2009,2108,2209"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,175,283,406,512,619,708,809,933,1020,1127,1239,1341,1449,1556,1663,1785,1884",
+                        "endColumns": "119,107,122,105,106,88,100,123,86,106,111,101,107,106,106,121,98,100",
+                        "endOffsets": "170,278,401,507,614,703,804,928,1015,1122,1234,1336,1444,1551,1658,1780,1879,1980"
                     }
                 }
             ]
@@ -707,28 +707,6 @@
             ]
         },
         {
-            "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-land_values-land.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "4,7,10,13,16,17",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "280,568,875,1171,1470,1541",
-                        "endColumns": "61,71,69,63,70,67",
-                        "endOffsets": "337,635,940,1230,1536,1604"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,117,189,259,323,394",
-                        "endColumns": "61,71,69,63,70,67",
-                        "endOffsets": "112,184,254,318,389,457"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-da_values-da.arsc.flat",
             "map": [
                 {
@@ -746,6 +724,28 @@
                         "startOffsets": "55,158,266,389,488,600,683,783,896,975,1084,1192,1288,1402,1504,1605,1721,1818",
                         "endColumns": "102,107,122,98,111,82,99,112,78,108,107,95,113,101,100,115,96,100",
                         "endOffsets": "153,261,384,483,595,678,778,891,970,1079,1187,1283,1397,1499,1600,1716,1813,1914"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-land_values-land.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "4,7,10,13,16,17",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "280,568,875,1171,1470,1541",
+                        "endColumns": "61,71,69,63,70,67",
+                        "endOffsets": "337,635,940,1230,1536,1604"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,117,189,259,323,394",
+                        "endColumns": "61,71,69,63,70,67",
+                        "endOffsets": "112,184,254,318,389,457"
                     }
                 }
             ]
@@ -885,28 +885,6 @@
             ]
         },
         {
-            "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-sk_values-sk.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/values-sk/values-sk.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "280,387,495,618,718,829,915,1023,1141,1225,1330,1439,1538,1644,1755,1864,1988,2086",
-                        "endColumns": "106,107,122,99,110,85,107,117,83,104,108,98,105,110,108,123,97,100",
-                        "endOffsets": "382,490,613,713,824,910,1018,1136,1220,1325,1434,1533,1639,1750,1859,1983,2081,2182"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,162,270,393,493,604,690,798,916,1000,1105,1214,1313,1419,1530,1639,1763,1861",
-                        "endColumns": "106,107,122,99,110,85,107,117,83,104,108,98,105,110,108,123,97,100",
-                        "endOffsets": "157,265,388,488,599,685,793,911,995,1100,1209,1308,1414,1525,1634,1758,1856,1957"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-w600dp-v13_values-w600dp-v13.arsc.flat",
             "map": [
                 {
@@ -924,6 +902,28 @@
                         "startOffsets": "55,119",
                         "endColumns": "63,54",
                         "endOffsets": "114,169"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-sk_values-sk.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/values-sk/values-sk.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "280,387,495,618,718,829,915,1023,1141,1225,1330,1439,1538,1644,1755,1864,1988,2086",
+                        "endColumns": "106,107,122,99,110,85,107,117,83,104,108,98,105,110,108,123,97,100",
+                        "endOffsets": "382,490,613,713,824,910,1018,1136,1220,1325,1434,1533,1639,1750,1859,1983,2081,2182"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,162,270,393,493,604,690,798,916,1000,1105,1214,1313,1419,1530,1639,1763,1861",
+                        "endColumns": "106,107,122,99,110,85,107,117,83,104,108,98,105,110,108,123,97,100",
+                        "endOffsets": "157,265,388,488,599,685,793,911,995,1100,1209,1308,1414,1525,1634,1758,1856,1957"
                     }
                 }
             ]
@@ -951,28 +951,6 @@
             ]
         },
         {
-            "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-lv_values-lv.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/values-lv/values-lv.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "280,400,508,631,739,848,934,1038,1160,1245,1354,1466,1565,1676,1785,1890,2009,2108",
-                        "endColumns": "119,107,122,107,108,85,103,121,84,108,111,98,110,108,104,118,98,100",
-                        "endOffsets": "395,503,626,734,843,929,1033,1155,1240,1349,1461,1560,1671,1780,1885,2004,2103,2204"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,175,283,406,514,623,709,813,935,1020,1129,1241,1340,1451,1560,1665,1784,1883",
-                        "endColumns": "119,107,122,107,108,85,103,121,84,108,111,98,110,108,104,118,98,100",
-                        "endOffsets": "170,278,401,509,618,704,808,930,1015,1124,1236,1335,1446,1555,1660,1779,1878,1979"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-v22_values-v22.arsc.flat",
             "map": [
                 {
@@ -992,6 +970,28 @@
                         "endLines": "2,3,6,9",
                         "endColumns": "74,86,12,12",
                         "endOffsets": "125,212,393,586"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/bryce/repos/open-cu/app/android/app/build/intermediates/res/merged/debug/values-lv_values-lv.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/bryce/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4db1d3f137824fb85115e77663ef04e0/res/values-lv/values-lv.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "280,400,508,631,739,848,934,1038,1160,1245,1354,1466,1565,1676,1785,1890,2009,2108",
+                        "endColumns": "119,107,122,107,108,85,103,121,84,108,111,98,110,108,104,118,98,100",
+                        "endOffsets": "395,503,626,734,843,929,1033,1155,1240,1349,1461,1560,1671,1780,1885,2004,2103,2204"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,175,283,406,514,623,709,813,935,1020,1129,1241,1340,1451,1560,1665,1784,1883",
+                        "endColumns": "119,107,122,107,108,85,103,121,84,108,111,98,110,108,104,118,98,100",
+                        "endOffsets": "170,278,401,509,618,704,808,930,1015,1124,1236,1335,1446,1555,1660,1779,1878,1979"
                     }
                 }
             ]
