@@ -162,7 +162,7 @@ const styles = StyleSheet.create({
     bottom: 0,
     height: 50,
     width: '100%',
-    backgroundColor: 'rgba(0,0,0,0.8)',
+    backgroundColor: '#0ae',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
