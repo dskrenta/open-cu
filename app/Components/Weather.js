@@ -11,17 +11,16 @@ const Weather = ({ weather }) => {
 
   return (
     <View>
-      {console.log(weather)}
       <LinearGradient 
-        colors={colors.gradient} 
+        colors={colors.gradient}
         style={styles.header}
-        start={{x: 0.0, y: 0.2}} 
+        start={{x: 0.0, y: 0}} 
         end={{x: 0.0, y: 1.0}}
       >
         <Text style={[styles.location, colors.text]}>Boulder, CO</Text>
         <Text style={[styles.condition, colors.text]}>{weather.item.condition.text}</Text>
         <View style={styles.row}>
-          <Icon name={getIcon(weather.item.condition.code)} style={colors.text} size={65} />
+          <Icon name={getIcon(weather.item.condition.code)} style={[styles.mainIcon, colors.text]} size={65} />
           <Text style={[styles.temp, colors.text]}>{weather.item.condition.temp}&deg;</Text>
         </View>
       </LinearGradient>
@@ -113,14 +112,25 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     padding: 30,
-    paddingBottom: 100
+    paddingBottom: 80
   },
   location: {
     fontSize: 24,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    textShadowColor: 'rgba(0, 0, 0, 0.3)',
+    textShadowOffset: {width: 0, height: 1},
+    textShadowRadius: 3
   },
   condition: {
     fontSize: 18,
+    textShadowColor: 'rgba(0, 0, 0, 0.3)',
+    textShadowOffset: {width: 0, height: 1},
+    textShadowRadius: 3
+  },
+  mainIcon: {
+    textShadowColor: 'rgba(0, 0, 0, 0.3)',
+    textShadowOffset: {width: 0, height: 1},
+    textShadowRadius: 3
   },
   row: {
     display: 'flex',
@@ -140,15 +150,18 @@ const styles = StyleSheet.create({
     fontSize: 65,
     fontWeight: 'bold',
     marginLeft: 10,
-    marginRight: 0
+    marginRight: 0,
+    textShadowColor: 'rgba(0, 0, 0, 0.3)',
+    textShadowOffset: {width: 0, height: 1},
+    textShadowRadius: 3
   },
   forecast: {
     display: 'flex',
     marginTop: -40,
-    paddingBottom: 30,
-    borderBottomWidth: 1,
+    paddingBottom: 0,
+    // borderBottomWidth: 1,
     // borderTopWidth: 1,
-    borderColor: '#ddd'
+    // borderColor: '#ddd'
   },
   forecastItem: {
     flex: 3,
