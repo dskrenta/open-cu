@@ -6,7 +6,7 @@
     density="xhdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1524379842517"
+    timestamp="1524530562159"
     token="-5843453113691027991"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -25,19 +25,16 @@
 
     <build
         build-mode="FULL"
-        timestamp="1524338427744"
+        timestamp="1524474330347"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/home/bryce/repos/open-cu/app/android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/bryce/repos/open-cu/app/android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
         <artifact
             location="/home/bryce/repos/open-cu/app/android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
             location="/home/bryce/repos/open-cu/app/android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/bryce/repos/open-cu/app/android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/home/bryce/repos/open-cu/app/android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -50,6 +47,9 @@
             type="SPLIT" />
         <artifact
             location="/home/bryce/repos/open-cu/app/android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/bryce/repos/open-cu/app/android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/home/bryce/repos/open-cu/app/android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -66,7 +66,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1524379842517"
+        timestamp="1524530562159"
         verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

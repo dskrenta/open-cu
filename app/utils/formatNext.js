@@ -12,7 +12,7 @@ export default function formatNext(hours) {
       </Text>
     );
   }
-  return (<Text className="openText">Open 24/7</Text>);
+  return (<Text style={styles.openText}>Open 24/7</Text>);
 }
 
 const styles = StyleSheet.create({

@@ -172,8 +172,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
   },
   innerScrollView: {
-    paddingBottom: 20,
-    paddingTop: 10
+    paddingBottom: 20
   }
 })
 

@@ -8,7 +8,6 @@ import getColors from '../utils/getColors';
 
 const Weather = ({ weather }) => {
   const colors = getColors(weather.item.condition.code);
-
   return (
     <View>
       <LinearGradient 
